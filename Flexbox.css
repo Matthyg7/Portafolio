@@ -352,10 +352,20 @@
         font-size: 16px;
     }
 
+    .contact-form__label {
+        margin-bottom: 25px;
+    }
+
     .contact-form__submit {
         width: 130px;
         height: 50px;
         font-size: 13px;
+    }
+
+    .contact-form__error {
+        display: none;
+        color: #ff0000;
+        font-size: 10px;
     }
 
     /* Boton de descarga */
@@ -717,11 +727,11 @@
     }
 
     .contenido {
-        padding: 0 20px;
+        padding: 10px 100px;
     }
 
     .contenido p {
-        width: 300px;
+        width: 80%;
         margin: 15px 0;
     }
 
@@ -739,13 +749,13 @@
     }
 
     .contact-form__input {
-        width: 300px;
+        width: 80%;
         font-size: 16px;
 
     }
 
     .contact-form__textarea {
-        width: 300px;
+        width: 80%;
         font-size: 16px;
     }
 
