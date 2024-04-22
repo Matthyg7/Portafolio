@@ -102,7 +102,7 @@ section.title {
     width: 680px;
     font-size: 20px;
     padding-bottom: 20px;
-    word-break: break-all;
+    word-break: keep-all;
 }
 
 .title__network {
